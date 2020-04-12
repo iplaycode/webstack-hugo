@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "zh-CN"
+title = "WebStack网址导航 Hugo主题"
+theme = "webstack-hugo"
+preserveTaxonomyNames = true
+disablePathToLower = true
+hasCJKLanguage = true
+
+[params]
+  author = "iplaysoft"
+  description = "Webstack Hugo"
