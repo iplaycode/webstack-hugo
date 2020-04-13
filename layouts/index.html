@@ -36,6 +36,15 @@
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?86cead3bcab6a1417189e6138d69262";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 
 <body class="page-body">
@@ -54,9 +63,6 @@
                         </a>
                     </div>
                     <div class="mobile-menu-toggle visible-xs">
-                        <a href="#" data-toggle="user-info-menu">
-                            <i class="linecons-cog"></i>
-                        </a>
                         <a href="#" data-toggle="mobile-menu">
                             <i class="fa-bars"></i>
                         </a>
@@ -182,7 +188,7 @@
                     <!-- Add your copyright text here -->
                     <div class="footer-text">
                         &copy; {{ now.Format "2006"}}
-                        <a href=""><strong>WebStack</strong></a> design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> themes by <a href="https://github.com/iplaycode" target="_blank"><strong>iplaycode</strong></a>
+                        <a href=""><strong>{{ if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}iplaycode{{ end }}</strong></a> design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> themes by <a href="https://github.com/iplaycode" target="_blank"><strong>iplaycode</strong></a>
                         <!--  - Purchase for only <strong>23$</strong> -->
                     </div>
                     <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
