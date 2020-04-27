@@ -2227,13 +2227,27 @@ footer.main-footer .footer-text {
 
 footer.main-footer .go-up {
     float: right;
-    margin-bottom: 20px
+    width: 45px;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    list-style: none
 }
 
 footer.main-footer .go-up a {
     display: inline-block;
-    background-color: rgba(44, 46, 47, .05);
-    padding: 2px 5px
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(123,123,123,.50);
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0
 }
 
 footer.main-footer .go-up a:hover {
