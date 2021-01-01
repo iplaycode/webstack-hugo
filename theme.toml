@@ -8,7 +8,7 @@ description = "Webstack Hugo theme"
 homepage = "https://iplaycode.github.io/nav/"
 tags = ["startpage", "webstack", "links", "nav"]
 features = []
-min_version = "0.8.12"
+min_version = "1.0"
 
 [author]
   name = "iplaycode"
