@@ -1,7 +1,7 @@
 ---
 
 - taxonomy: 常用推荐
-  icon: linecons-star
+  icon: fa-star
   links: 
     - title: Dribbble
       logo: assets/images/logos/dribbble.png
@@ -11,6 +11,10 @@
       logo: assets/images/logos/behance.png
       url: https://behance.net/
       description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
+    - title: 二维码测试
+      qrcode: assets/images/webstack-hugo-qrcode.png
+      logo: assets/images/favicon.png
+      description: 二维码测试，新增二维码，手机扫一扫
     - title: UI中国
       logo: assets/images/logos/uicn.png
       url: https://www.ui.cn/
@@ -50,7 +54,7 @@
     
 
 - taxonomy: 社区咨询
-  icon: linecons-doc
+  icon: fa-newspaper-o
   links: 
     - title: 雷锋网
       logo: assets/images/logos/leiphone.png
@@ -103,7 +107,7 @@
     
 
 - taxonomy: 灵感采集
-  icon: linecons-lightbulb
+  icon: fa-lightbulb-o
   list: 
     - term: 发现产品
       links:
@@ -212,7 +216,7 @@
 
       
 - taxonomy: 素材资源
-  icon: linecons-thumbs-up
+  icon: fa-thumbs-up
   list: 
     - term: 图标素材
       links:
@@ -651,7 +655,7 @@
       
 
 - taxonomy: 常用工具
-  icon: linecons-diamond
+  icon: fa-diamond
   list: 
     - term: 图形创意
       links:
@@ -856,7 +860,7 @@
 
 
 - taxonomy: 学习教程
-  icon: linecons-pencil
+  icon: fa-pencil
   list: 
     - term: 设计规范
       links:
@@ -961,8 +965,12 @@
 
 
 - taxonomy: UED团队
-  icon: linecons-user
+  icon: fa-user
   links: 
+    - title: 二维码测试
+      qrcode: assets/images/webstack-hugo-qrcode.png
+      logo: assets/images/favicon.png
+      description: 二维码测试
     - title: Airbnb Design
       url: https://airbnb.design
       logo: assets/images/logos/AirbnbDesign.png
@@ -1027,3 +1035,7 @@
       url: http://ued.ctrip.com/
       logo: assets/images/logos/ctrip.png
       description: 携程设计委员会-Ctrip Design Committee
+    - title: 二维码测试
+      qrcode: assets/images/webstack-hugo-qrcode.png
+      logo: assets/images/favicon.png
+      description: 二维码测试
