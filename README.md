@@ -16,14 +16,18 @@
 如：icon: linecons-star
 变更为：icon: fa-star
 ```
-+ 新增聚合搜索框、夜间模式，默认关闭
++ 可以加公众号二维码，webstack.yml中的配置如下
 ```
-config.toml配置文件新增如下参数：
-
+    - title: 二维码演示
+      qrcode: assets/images/webstack-hugo-qrcode.png
+      logo: assets/images/favicon.png
+      description: 二维码演示，新增二维码，手机扫一扫
+```
++ 新增聚合搜索框、夜间模式，可开关
+```
+config.toml配置文件新增如下参数进行相应模式的开（true）和关（false）
 [params.search]
-  enable = false
+  enable = true
 [params.darkmode]
   enable = false
-
-如需开启搜索框或夜间模式，将相应的false改为true即可
 ```
