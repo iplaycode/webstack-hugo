@@ -11,7 +11,7 @@
 <meta property="og:url" content="">
 <meta property="og:title" content="">
 <meta property="og:description" content="">
-<meta property="og:image" content="./assets/screenshot.jpg">
+<meta property="og:image" content="">
 <meta property="og:site_name" content="">
 <link rel="shortcut icon" href="./assets/favicon.png">
 <link rel="apple-touch-icon" href="./assets/app-ico.png">
@@ -104,7 +104,7 @@
             <div class="row">
             {{ range .links }}
                 {{ if .qrcode }}
-                <div class="xe-card col-sm-4 col-md-3 wechat">
+                <div class="xe-card col-sm-4 col-md-3 qrcode">
                     <a href="javascript:" target="" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
                         <div class="xe-comment-entry">
                             <div class="xe-user-img">
@@ -147,7 +147,7 @@
             <div class="row">
             {{ range .links }}
                 {{ if .qrcode }}
-                <div class="xe-card col-sm-4 col-md-3 wechat">
+                <div class="xe-card col-sm-4 col-md-3 qrcode">
                     <a href="javascript:" target="" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
                         <div class="xe-comment-entry">
                             <div class="xe-user-img">
@@ -268,7 +268,5 @@
 <script type='text/javascript' src='./assets/js/TweenMax.min.js?ver=2.0'></script>
 <script type='text/javascript' src='./assets/js/app.js?ver=2.0'></script>
 <script type='text/javascript' src='./assets/js/lazyload.min.js?ver=2.0'></script>
-<!-- 自定义代码 -->
-<!-- end 自定义代码 -->
 </body>
 </html>
