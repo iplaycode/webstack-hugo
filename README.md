@@ -31,3 +31,4 @@ config.toml配置文件新增如下参数进行相应模式的开（true）和�
 [params.darkmode]
   enable = false
 ```
+# nav
